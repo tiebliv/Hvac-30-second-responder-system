@@ -1,0 +1,5 @@
+{
+  "name": "HVAC 30-Second Responder",
+  "description": "Generate fast, human-sounding SMS replies for HVAC leads.",
+  "requestFramePermissions": []
+}
