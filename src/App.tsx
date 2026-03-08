@@ -149,9 +149,12 @@ export default function App() {
       {/* Header */}
       <header className="bg-[#111827] text-white py-8 px-4 shadow-lg">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            HVAC 30-Second Responder
+          <h1 className="text-4xl font-extrabold tracking-tighter sm:text-5xl uppercase">
+            MEERAKAPP
           </h1>
+          <h2 className="text-xl font-bold tracking-tight sm:text-2xl mt-1 opacity-90">
+            30-Second Responder System
+          </h2>
           <p className="mt-2 text-blue-300 font-medium">
             Turn missed calls into booked jobs in 30 seconds.
           </p>
@@ -374,7 +377,7 @@ export default function App() {
 
         {/* Footer Info */}
         <footer className="mt-8 text-center text-gray-400 text-xs">
-          <p>@HVAC 30-Second Responder</p>
+          <p>@Meerakapp 30-Second Responder System</p>
         </footer>
       </main>
     </div>
