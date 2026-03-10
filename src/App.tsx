@@ -150,7 +150,7 @@ export default function App() {
       <header className="bg-[#111827] text-white py-8 px-4 shadow-lg">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl font-extrabold tracking-tighter sm:text-5xl uppercase">
-            MEERAKAPP
+            MEERAKAPP<span className="text-sm font-light align-top ml-0.5 opacity-80">™</span>
           </h1>
           <h2 className="text-xl font-bold tracking-tight sm:text-2xl mt-1 opacity-90">
             30-Second Responder System
@@ -376,8 +376,9 @@ export default function App() {
         </div>
 
         {/* Footer Info */}
-        <footer className="mt-8 text-center text-gray-400 text-xs">
-          <p>@Meerakapp 30-Second Responder System</p>
+        <footer className="mt-8 text-center text-gray-400 text-xs space-y-1">
+          <p>Meerakapp™ 30-Second Responder System</p>
+          <p>by Meerakapp Solutions</p>
         </footer>
       </main>
     </div>
